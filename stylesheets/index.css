@@ -1,0 +1,104 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+	background:#205D20;
+	/*background: url('../img/bg.jpg');*/
+}
+#kk{
+	width:900px;
+	height:500px;
+	/*border:1px solid black;*/
+	margin:0 auto;
+	/*margin-right: 200px;*/
+	position: relative;
+
+}
+.pok{
+	width:100px;
+	height:130px;
+	background: white;
+	position: absolute;
+	border-radius: 5px;
+	box-shadow: 2px 0px 6px black;
+	cursor:pointer;
+	padding-left: 5px;
+	/*opacity: 0.7;*/
+}
+.blockd{
+	position: absolute;
+	top:0px;
+	left:460px;
+}
+#zuok{
+	width:100px;
+	height:130px;
+	/*border:1px solid black;*/
+	/*box-shadow:1px 0 4px #ccc;*/
+	position: absolute;
+	top:460px;
+	left:250px;
+	cursor:pointer;
+	border-radius: 5px;
+}
+#zuok:hover{
+	transform:scale(1.05);
+}
+@font-face {
+	font-family: "ff";
+ 	src:url(../ff.ttf);
+}
+.zhipai{
+	font-size: 6em;
+	position: absolute;
+	top:50px;
+	left:150px;
+	width:50px;
+	color:white;
+	font-family: "ff";
+}
+#youk{
+	width:100px;
+	height:130px;
+	/*border:1px solid black;*/
+	/*box-shadow:1px 0 4px #ccc;*/
+
+	position: absolute;
+	top:460px;
+	right:250px;
+	cursor:pointer;
+	/*background: #278427;*/
+	border-radius: 5px;
+}
+#youk:hover{
+	transform:scale(1.05);
+}
+.zj{
+	width:100px;
+	height:130px;
+	position: absolute;
+	top:450px;
+	left:630px;
+}
+
+#shang:hover,#xia:hover{
+	box-shadow: 2px 0 10px black;
+	transform:scale(1.05);
+}
+
+#shang,#xia,#shuaxin{
+	width:100px;
+	height:30px;
+	margin: 15px auto;
+	font-size: 14px;
+	/*background: #076526;*/
+	border:1px solid white;
+	border-radius: 3px;
+	cursor:pointer;
+	box-shadow: 2px 0 5px black;
+	text-align: center;
+	line-height: 30px;
+	color:white;
+}
+/*#shuaxin:hover{
+	transform:scale(1.05);*/
